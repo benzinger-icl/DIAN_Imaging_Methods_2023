@@ -10,11 +10,11 @@ Author: Nicole S. McKay
 
 
 <b> Input data:</b>
-* Imaging: 
-* Demographics:
-* Genetics:
-* Clinical: 
-* Cognitive: 
+* Imaging: Cortical thickness summary measure, cortical PiB summary measure, hippocampal volume, total intracranial volume, SUVRs (with partial volume correction) for FDG-Isthmus cingulate, and inferior parietal regions
+* Demographics: ID, visit age, years of education, sex, handedness, self reported race, self reported hispanic, primary language 
+* Genetics: family ID, apoe allele, ADAD mutation carrying status, ADAD mutation type (PSEN1/PSEN2/APP), ADAD SNP 
+* Clinical: estimated age of symptom onset, CDR score
+* Cognitive: scores from the following tests: MMSE, WAIS, Animal naming, Boston naming, and delayed logical memory
 
 
 <b>We would like to acknowledge the following:</b>
