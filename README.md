@@ -18,8 +18,8 @@ Author: Nicole S. McKay
 
 
 <b>We would like to acknowledge the following:</b>
-* Partial support from the BrightFocus Foundation ()
-* Partial support from the Alzheimer's Association ()
-* Funding from the DIAN-OBS project (NIH/NIA )
+* Partial support from the <b>BrightFocus Foundation </b>(A2022013F)
+* Partial support from the <b>Alzheimer's Association</b> (AARF-21-722077)
+* Funding from the DIAN-OBS project (<b>National Institute of Aging</b>: U19-AG032438)
 * The DIAN Consortium: our colleagues and collaborators around the globe
-* The efforts of our participants and their families
+* The <b>efforts of our participants and their families</b>
