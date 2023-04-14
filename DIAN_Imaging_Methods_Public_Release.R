@@ -1,6 +1,6 @@
 #### DIAN Imaging Methods
 #### Code that accompanies the Nature Neuroscience DIAN Imaging Methods Manuscript
-#### Author: Nicole S. McKay
+#### Author: Nicole S. McKay (w Pete R. Millar)
 #### April 2023
 
 #### See the associated manuscript: XXXX
@@ -229,7 +229,7 @@ dian %>%
   theme(legend.position = "bottom")
 
 
-#### Figure 3: Can not be replicated as it is created from data that would unblind researchers to participants ####
+#### Figure 3: Can not be replicated as it is created from RAW MRI and PET images and would require us to provide a participant ID for researchers to exactly replicate ####
 
 #### Figure 4: EYO vs Age ####
 EYO <- dian %>% 
@@ -293,8 +293,8 @@ ggarrange(EYO, Age, nrow=2, labels = c("A", "B"), common.legend = TRUE, legend="
 
 rm(Age, EYO)
 
-#### Figure 5: Can not be replicated as it is created from data that would unblind researchers to participants ####
-#### Figure 6: Can not be replicated as it is created from data that would unblind researchers to participants ####
+#### Figure 5: Can not be replicated as it is created from data (i.e. location information) that would unblind researchers to participants ####
+#### Figure 6: Can not be replicated as it is created in BioRender, and is a flow chart that does not depict any data points ####
 #### Figure ED1: Breakdown of Race ####
 #### Figure ED2: Heterogeneity of ADAD mutations ####
 mu1 <- dian %>% drop_na(zpibsum)%>% filter(Group == "MCS" & MUTATIONTYPE != "2")%>% group_by(MUTATIONTYPE)%>% mutate (grp.mean = mean(zpibsum), Factor = "zpibsum")%>% select(MUTATIONTYPE, grp.mean, Factor) %>% ungroup(); mu1 <- unique(mu1)
@@ -342,5 +342,5 @@ dian %>%
         axis.text = element_text(size = 7), axis.title = element_text(size=7), legend.position = "none")
 
 
-#### Figure ED4: Can not be replicated as it is created from data that would unblind researchers to participants ####
-#### Figure ED5: Can not be replicated as it is created from data that would unblind researchers to participants ####
+#### Figure ED4: Can not be replicated as it is created in PowerPoint, and is a flow chart that does not depict any data points ####
+#### Figure ED5: Can not be replicated as it contains information not available in the public data release (the specific details of edits that scans went through) ####
