@@ -5,11 +5,14 @@
 
 #### See the associated manuscript: XXXX
 #### Please read the associated 'read me' file
-#### This script assumes all data files are stored in a subfolder called 'Data'
+#### This script assumes all data files are stored in a sub-folder called 'Data'
+#### Important! This data is not supplied by default. Researchers must request the variables using the DIAN Data Request form.
 
 #### Load packages ####
 # assumes you already have the pacman package, if you do not: https://github.com/trinker/pacman 
-#pacman::p_load(data.table, gt, gtsummary, effectsize, psych, tidyverse)
+# you can use these two commands to get pacman if you do not already have it: 
+# install.packages("pacman")
+# library(pacman)
 pacman::p_load(rstatix, broom, gt, gtsummary, psych, tidyverse, effectsize, ggalluvial, ggpubr)
 
 #### loading each DIAN Data Release 15 file ####
@@ -344,3 +347,6 @@ dian %>%
 
 #### Figure ED4: Can not be replicated as it is created in PowerPoint, and is a flow chart that does not depict any data points ####
 #### Figure ED5: Can not be replicated as it contains information not available in the public data release (the specific details of edits that scans went through) ####
+
+
+#### Please see the corresponding manuscript for further information about this data, and if you use the imaging data, we would love you to cite this manuscript also
